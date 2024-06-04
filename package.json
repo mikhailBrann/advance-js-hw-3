@@ -2,8 +2,11 @@
   "name": "@mihailbrann/advance-js-hw-3",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,13 @@
     "url": "https://github.com/mikhailBrann/advance-js-hw-3/issues"
   },
   "homepage": "https://github.com/mikhailBrann/advance-js-hw-3#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
