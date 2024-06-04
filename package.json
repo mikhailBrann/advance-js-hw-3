@@ -1,0 +1,19 @@
+{
+  "name": "@mihailbrann/advance-js-hw-3",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhailBrann/advance-js-hw-3.git"
+  },
+  "author": "mihailbrann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikhailBrann/advance-js-hw-3/issues"
+  },
+  "homepage": "https://github.com/mikhailBrann/advance-js-hw-3#readme",
+  "description": ""
+}
